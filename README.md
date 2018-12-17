@@ -1,0 +1,2 @@
+# guessing_game
+This is a remake of the classic guessing game puzzle.  At the beginning of each round, the user may specify their own boundaries for which the random number will be generated in between.  The random number is generated using the rand() function in the cstdlib library, and seeded using the current time.  Furthermore, the number of guesses is calculated based on the worst case scenario of the binary search algorithm.
